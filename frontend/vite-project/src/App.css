@@ -1,0 +1,15 @@
+body {
+    background-image: url('/lighthouse-night-3840x2160-9466.jpg') ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.main-content{
+    margin: 4rem 2.5rem;
+    
+}

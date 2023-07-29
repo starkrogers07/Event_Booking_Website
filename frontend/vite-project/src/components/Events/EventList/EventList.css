@@ -1,0 +1,7 @@
+.event__list {
+  width: 80vw;
+  grid-auto-columns: minmax(100px, auto);
+  grid-auto-rows: minmax(100px, auto);
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(15vw,0fr));
+grid-gap: 10px;}

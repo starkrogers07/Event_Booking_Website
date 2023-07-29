@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+       padding: 0;
+       font-family: Arial, sans-serif;
+       background-image: url('https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg');
+       background-size: cover;
+   }
+   .login-box {
+       width: 280px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background: #222;
+       padding: 40px;
+       border-radius: 5px;
+       box-shadow: 0 0 10px #000;
+   }
+   
+   .login-box h1 {
+       color: #fff;
+       text-align: center;
+       font-size: 24px;
+       margin-top: 0;
+   }
+   
+   .login-box p {
+       margin: 0;
+       padding: 0;
+       font-weight: bold;
+       color: #fff;
+   }
+   
+   .login-box input {
+       width: 100%;
+       margin-bottom: 20px;
+   }
+   
+   .login-box input[type="text"],
+   .login-box input[type="password"] {
+       border: none;
+       border-bottom: 1px solid #fff;
+       background: transparent;
+       outline: none;
+       height: 40px;
+       color: #fff;
+       font-size: 16px;
+   }
+   
+   .login-box input[type="submit"] {
+       border: none;
+       outline: none;
+       height: 40px;
+       background: #fb2525;
+       color: #fff;
+       font-size: 18px;
+       border-radius: 20px;
+   }
+   
+   .login-box input[type="submit"]:hover {
+       cursor: pointer;
+       background: #ffc107;
+       color: #000;
+   }
+   
+   .login-box a {
+       color: #fff;
+       font-size: 14px;
+       font-weight: bold;
+       text-decoration: none;
+   }
+   
+   .login-box a:hover {
+       text-decoration: underline;
+   }
+   
+   .avatar {
+       width: 85px;
+       height: 85px;
+       border-radius: 50%;
+       position: absolute;
+       top: -50px;
+       left: calc(50% - 50px);
+   }
+   
+   .invit-only {
+       margin: 0px 0;
+       color: #fff;
+       font-size: 14px;
+   }
+   
+   .invit-only label {
+       display: flex;
+       align-items: center;
+   }
+   
+   .invit-only label input[type="checkbox"] {
+       margin-right: 1px;
+   }
+   .referral-code {
+     color: white;
+   }
